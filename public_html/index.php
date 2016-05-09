@@ -46,11 +46,15 @@
 				</div>
 				<div class="collapse navbar-collapse" id="main-menu">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="/">Home</a></li>
+						<li><a href="/~kgarrott/bootstrap-project/public_html/">Home</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 								Other Stuff<span class="caret"></span>
 							</a>
+							<ul class="dropdown-menu">
+								<li><a href="https://www.windfinder.com">Windfinder</a></li>
+								<li><a href="http://www.paraglidingmap.com/default.aspx">PGMap</a></li>
+							</ul>
 						</li>
 					</ul>
 				</div>
