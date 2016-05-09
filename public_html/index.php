@@ -40,8 +40,9 @@
 		<div class="sfooter-content">
 			<div class="container">
 			<header>
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+				<div class="navbar-header"
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+							<i class="fa fa-bars" aria-hidden="true"></i>
 				</div>
 			</header>
 			</div> <!-- .container -->
