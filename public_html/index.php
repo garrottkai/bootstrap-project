@@ -43,12 +43,8 @@
 		<div class="sfooter-content">
 			<div class="container">
 			<header>
-				<div class="navbar-header"
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
-							<i class="fa fa-bars" aria-hidden="true"></i>
-				</div>
 				<div class="collapse navbar-collapse" id="main-menu">
-					<ul class="nav navbar-nav navbar-right">
+					<ul class="nav navbar-nav navbar-left">
 						<li><a href="/~kgarrott/bootstrap-project/public_html/">Home</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -62,6 +58,26 @@
 					</ul>
 				</div>
 			</header>
+			<main>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="well text-center">
+								<h1>Well, well, well</h1>
+								<p>This is twelve columns wide</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="well text-center">
+								<h4>Left side</h4>
+							</div>
+							<div class="well text-center">
+								<h4>Right side</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
 			</div> <!-- .container -->
 		</div> <!-- .sfooter-content -->
 		<footer>
