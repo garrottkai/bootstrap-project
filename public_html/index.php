@@ -29,7 +29,7 @@
 		<!-- jQuery -->
 		<script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 
-		<!-- Latest compiled and minified Bootstrap JavaScript -->
+		<!-- Compiled and minified Bootstrap JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 		<!-- Custom JavaScript/jQuery -->
@@ -38,12 +38,24 @@
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
+			<div class="container">
 			<header>
-				<div class="container">
-					
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
 				</div>
 			</header>
-		</div>
-
+			</div> <!-- .container -->
+		</div> <!-- .sfooter-content -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="foot-content">
+							IT'S FOOTER TIME
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
