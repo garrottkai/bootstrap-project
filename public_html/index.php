@@ -42,7 +42,7 @@
 	<body class="sfooter">
 		<div class="sfooter-content">
 			<div class="container">
-			<header>
+			<header class=>
 				<div class="collapse navbar-collapse" id="main-menu">
 					<ul class="nav navbar-nav navbar-left">
 						<li><a href="/~kgarrott/bootstrap-project/public_html/">Home</a></li>
@@ -59,7 +59,6 @@
 				</div>
 			</header>
 			<main>
-				<div class="container">
 					<div class="row">
 						<div class="col-xs-12">
 							<div class="well text-center">
@@ -67,12 +66,14 @@
 								<p>This is twelve columns wide</p>
 							</div>
 						</div>
+					</div>	
+					<div class="row">
 						<div class="col-md-6">
 							<div class="well text-center">
 								<h4>Left side</h4>
 							</div>
 							<div class="well text-center">
-								<h4>Right side</h4>
+								<h4>This is supposed to be on the right side</h4>
 							</div>
 						</div>
 					</div>

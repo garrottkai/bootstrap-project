@@ -3,6 +3,17 @@
 * ----------------------------------
 */
 
+header {
+	background-color: blanchedalmond;
+	margin-bottom: 2rem;
+
+
+}
+
+#main-menu {
+	color: grey;
+}
+
 /**
 * BODY STYLES
 * ----------------------------------
@@ -16,7 +27,7 @@
 footer {
 	background-color: dimgrey;
 	color: antiquewhite;
-	padding: 10px;
+	padding: 2rem;
 }
 
 /**
